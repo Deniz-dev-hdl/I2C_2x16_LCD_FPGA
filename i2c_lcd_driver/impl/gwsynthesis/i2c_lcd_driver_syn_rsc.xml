@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="FPGA_TOP" Register="2" Lut="1" T_Register="115(2)" T_Alu="9(0)" T_Lut="226(1)">
+ <SubModule name="PLL"/>
+ <SubModule name="LCD_Hello_World" Register="13" Lut="54" T_Register="113(13)" T_Alu="9(0)" T_Lut="225(54)">
+  <SubModule name="LCD_Driver" Register="35" Lut="48" T_Register="70(35)" T_Lut="129(48)">
+   <SubModule name="I2C_Instance" Register="35" Lut="81" T_Register="35(35)" T_Lut="81(81)"/>
+  </SubModule>
+  <SubModule name="Delay_Instance" Register="30" Alu="9" Lut="42" T_Register="30(30)" T_Alu="9(9)" T_Lut="42(42)"/>
+ </SubModule>
+</Module>

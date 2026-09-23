@@ -1,0 +1,25 @@
+//Copyright (C)2014-2025 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//Tool Version: V1.9.11.03 Education
+//Part Number: GW2AR-LV18QN88C8/I7
+//Device: GW2AR-18
+//Device Version: C
+//Created Time: Mon 09 21 21:22:00 2026
+
+IO_LOC "o_ack_error_led" 20;
+IO_PORT "o_ack_error_led" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_uart_overflow" 17;
+IO_PORT "o_uart_overflow" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_lcd_busy" 19;
+IO_PORT "o_lcd_busy" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_lcd_ready" 18;
+IO_PORT "o_lcd_ready" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "io_scl" 28;
+IO_PORT "io_scl" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 OPEN_DRAIN=ON BANK_VCCIO=3.3;
+IO_LOC "io_sda" 27;
+IO_PORT "io_sda" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 OPEN_DRAIN=ON BANK_VCCIO=3.3;
+IO_LOC "i_uart_rx" 85;
+IO_PORT "i_uart_rx" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "i_clk" 4;
+IO_PORT "i_clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;

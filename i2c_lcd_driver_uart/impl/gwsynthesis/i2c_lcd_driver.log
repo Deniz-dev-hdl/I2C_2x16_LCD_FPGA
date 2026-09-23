@@ -1,0 +1,44 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\DELAY_20US_R.sv'
+Analyzing Verilog file 'C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\FGPA_TOP.sv'
+Analyzing Verilog file 'C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\I2C_LCD_CONTROLLER.sv'
+Analyzing Verilog file 'C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\I2C_LCD_DRIVER.sv'
+Analyzing Verilog file 'C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\gowin_rpll\gowin_rpll.v'
+Analyzing Verilog file 'C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\LCD_UART_TERMINAL.sv'
+Analyzing Verilog file 'C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\BYTE_FIFO.sv'
+Analyzing Verilog file 'C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\UART_RX.sv'
+Analyzing VHDL file 'C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\I2C_MASTER.vhd'
+Analyzing entity 'i2c_master'("C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\I2C_MASTER.vhd":36)
+Analyzing architecture 'logic'("C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\I2C_MASTER.vhd":54)
+Compiling module 'FPGA_TOP'("C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\FGPA_TOP.sv":1)
+Compiling module 'Gowin_rPLL'("C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\gowin_rpll\gowin_rpll.v":10)
+Compiling module 'LCD_UART_TERMINAL(P_I2C_LCD_ADDRESS=7'b0100111)'("C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\LCD_UART_TERMINAL.sv":1)
+Compiling module 'UART_RX'("C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\UART_RX.sv":1)
+Compiling module 'BYTE_FIFO_32'("C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\BYTE_FIFO.sv":1)
+Extracting RAM for identifier 'r_memory'("C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\BYTE_FIFO.sv":13)
+Compiling module 'I2C_LCD_DRIVER(P_I2C_LCD_ADDRESS=7'b0100111)'("C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\I2C_LCD_DRIVER.sv":1)
+Switching to VHDL mode to elaborate design unit 'i2c_master'("C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\I2C_LCD_DRIVER.sv":77)
+Processing 'i2c_master(input_clk=27000000)(logic)'("C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\I2C_MASTER.vhd":36)
+Returning to Verilog mode to proceed with elaboration("C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\I2C_LCD_DRIVER.sv":77)
+Compiling module 'DELAY_20US_R'("C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\src\DELAY_20US_R.sv":1)
+NOTE  (EX0101) : Current top module is "FPGA_TOP"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\impl\gwsynthesis\i2c_lcd_driver.vg" completed
+[100%] Generate report file "C:\Users\Deniz\Documents\GOWIN\i2c_lcd_driver_uart\impl\gwsynthesis\i2c_lcd_driver_syn.rpt.html" completed
+GowinSynthesis finish

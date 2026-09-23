@@ -1,0 +1,50 @@
+{
+ "Device" : "GW2AR-18C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/Deniz/Documents/GOWIN/i2c_lcd_driver_uart/src/DELAY_20US_R.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Deniz/Documents/GOWIN/i2c_lcd_driver_uart/src/FGPA_TOP.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Deniz/Documents/GOWIN/i2c_lcd_driver_uart/src/I2C_LCD_CONTROLLER.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Deniz/Documents/GOWIN/i2c_lcd_driver_uart/src/I2C_LCD_DRIVER.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Deniz/Documents/GOWIN/i2c_lcd_driver_uart/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Deniz/Documents/GOWIN/i2c_lcd_driver_uart/src/LCD_UART_TERMINAL.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Deniz/Documents/GOWIN/i2c_lcd_driver_uart/src/BYTE_FIFO.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Deniz/Documents/GOWIN/i2c_lcd_driver_uart/src/UART_RX.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Users/Deniz/Documents/GOWIN/i2c_lcd_driver_uart/src/I2C_MASTER.vhd",
+   "Type" : "vhdl"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/Deniz/Documents/GOWIN/i2c_lcd_driver_uart/impl/temp/rtl_parser.result",
+ "Top" : "FPGA_TOP",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}
